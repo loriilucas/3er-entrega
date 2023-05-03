@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #0F2027, #203A43, white);
+}
+
+h1{
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color:#0f0f27;
+    border-radius: 10rem;
+    border: white 0.15rem solid;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0f0f27;
+    background-color: white;
+    border:#0f0f27 solid 0.2rem;
+    border-radius: 3rem;
+}
+
+.col-md-6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    border: #0f0f27 solid 2px;
+}
+
+p{
+    font-weight: 500;
+    font-size: x-large;
+}
+h4{
+
+    font-weight: 700;
+}
+
+button{
+    background-color: #0f0f27;
+}
+
+.tabla{
+    text-align: center;
+    width: 60rem;
+    background: linear-gradient(to right,#8eacb6, white);
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+.tabla th, .tabla td {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+}
+ 
+.tabla td {
+    font-size: 1.4rem;
+}
+
+.btnVaciar{
+    margin-left: 12rem;
+}
